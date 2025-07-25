@@ -1,36 +1,50 @@
-# 2025-SQL-Server-Study 自学资料库  
+# SQL 学习资料库
 
-![SQL Server Logo](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)  
-[![更新进度](https://img.shields.io/badge/更新进度-92%25-brightgreen)](https://github.com/yourusername/2025-SQL-Server-Study)  
-[![最后更新](https://img.shields.io/badge/最后更新-2025.07.05-blue)](https://github.com/yourusername/2025-SQL-Server-Study/commits/main)
+本仓库收集 SQL 数据库相关的学习资料，涵盖基础知识、性能优化、高级查询等核心主题。所有资料均适用于 SQL Server，部分内容兼容其他数据库系统。
 
-本项目是个人学习 Microsoft SQL Server 的完整学习资料库，包含系统化的学习笔记、实用代码示例和核心概念整理，适用于从入门到进阶的学习路径。
+## 📚 资料分类
 
-### 🔍 高级查询技术
-- **多表关联**：INNER/LEFT/RIGHT/FULL JOIN
-- **子查询**：嵌套查询与相关子查询
-- **窗口函数**：RANK(), ROW_NUMBER(), LEAD/LAG
+### 1️⃣ 基础知识
+- [2008基础知识PPT](2008基础知识PPT) - SQL Server 2008 基础概念与操作指南  
+  `最后更新: 3周前`
 
-### 🏗️ 数据库对象
-| 对象类型 | 核心功能 | 应用场景 |
-|---------|----------|----------|
-| 存储过程 | 预编译SQL集合 | 复杂业务逻辑封装 |
-| 函数 | 可重用计算单元 | 数据转换与计算 |
-| 触发器 | 自动响应数据变更 | 审计日志、数据校验 |
-| 视图 | 虚拟表封装 | 数据权限控制、简化查询 |
-| 索引 | 加速数据检索 | 查询性能优化 |
+### 2️⃣ SQL 优化专题
+#### 优化核心系列
+- [SQL优化真的有这么重要](3附1-SQL优化（系列）1-SQL优化真的有这么重要.docx)
+- [建表优化](3附1-SQL优化（系列）2-建表优化.docx)
+- [查询条件优化](3附1-SQL优化（系列）3-查询条件优化.docx)
+- [增删改语句优化](3附1-SQL优化（系列）4-增删改语句优化.docx)
+- [SELECT语句优化](3附1-SQL优化（系列）5-SELECT语句优化.docx)
+- [SQL优化策略](3附1-SQL优化（系列）6-SQL优化策略.docx)
+- [IN元素超过1000处理方案](3附1-SQL优化（系列）7-in元素超过1000如何办.docx)
+- [NULL与索引的关系](3附1-SQL优化（系列）8-null与索引.docx)
+- [NULL vs NOT NULL](3附1-SQL优化（系列）9-null与notnull与空间关系.docx)
+- [SQL执行缓慢原因分析](3附1-SQL优化（系列）10-sql为什么执行慢.docx)
 
+#### 优化速查手册
+- [SQL语句执行顺序](3附2-sql语句执行顺序.docx)
+- [高频优化技巧10条](3附3-高频SQL优化技巧10条.docx)
+- [35个优化技巧](3附4-sql35个优化技巧.docx)
+- [优化黄金20条](3附5-sql优化20条.docx)
 
-## 🤝 贡献与反馈
-> 本仓库主要用于个人学习记录，欢迎共同完善！
+### 3️⃣ 高级查询技术
+- [子查询详解](4-子查询.docx)
+- [多表连接查询指南](5-深入理解SQL多表连接查询.docx)
+- [窗口函数及移位函数](窗口函数及移位函数.docx参考资料)
 
-- 如有建议或问题，欢迎通过 **Issues** 提出
-- 发现代码错误或笔记疏漏，可提交 **Pull Request** 帮助完善
-- 期待你的贡献与反馈，共同提升学习资源质量！
+### 4️⃣ 存储过程与规范
+- [存储过程规范写法](3-sql存储过程规范写法.docx)
+- [常用系统存储过程示例](sql%20server%20常用的系统存储过程.sql)
 
----
+### 5️⃣ 实战与运维
+- [SQL Server 十大易错点](SQL%20Server%20十大易错点.docx)
+- [差异备份恢复步骤](数据库差异备份恢复步骤.doc)
+- [SQL查询示例](SQLQuery1.sql)
 
-**最后更新**：2025年07月05日  
+### 6️⃣ 学习笔记
+- [6月24日笔记](6-24.docx)
+- [6月25日笔记](6-25.docx)
+- [学习内容概要](学习内容.docx)
 
-
-**让我们一起攻克 SQL Server 技术栈！** 🚀
+## 🔄 更新记录
+所有资料均于2025.6.25 更新
